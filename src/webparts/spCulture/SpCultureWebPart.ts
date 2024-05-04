@@ -37,7 +37,11 @@ export default class SpCultureWebPart extends BaseClientSideWebPart<ISpCultureWe
           <ul class="${styles.links}">
             <li>
             <strong>current Culture Name</strong>:${escape(this.context.pageContext.cultureInfo.currentCultureName)}
+            </li>
+            <li>
             <strong>current UI Culture Name</strong>:${escape(this.context.pageContext.cultureInfo.currentUICultureName)}
+            </li>
+            <li>
             <strong>isRightToLeft?</strong>:${this.context.pageContext.cultureInfo.isRightToLeft}
             </li>
           </ul>
