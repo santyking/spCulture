@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-culture-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spCulture/SpCultureWebPart.js",
+          "manifest": "./src/webparts/spCulture/SpCultureWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpCultureWebPartStrings": "lib/webparts/spCulture/loc/{locale}.js"
+  }
+}
